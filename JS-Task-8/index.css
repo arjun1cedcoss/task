@@ -1,0 +1,78 @@
+#container{
+    width: 100%;
+    height: auto;
+    display: flex;
+    background-color: green;
+    flex-wrap: wrap;
+   justify-content: space-around;
+    padding: 20px;
+    
+}
+h1{
+    text-align: center;
+    color: tomato;
+}
+.item{
+    border: 2px black;
+}
+.item img{
+    margin-top: 5px;
+    width: 100px;
+    height: 100px;
+   
+}
+.price{
+    text-align: center;
+}
+.container .type{
+   
+    text-align: center;
+    border: 2px solid rgb(34, 34, 36);
+    background-color: white;
+}
+table{
+    border: 2px solid black;
+    border-collapse: collapse;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+.hide{
+    display: none;
+}
+th,td{
+    border: 2px solid black;
+    text-align: center;
+    padding: 10px;
+}
+th{
+    background-color: grey;
+    padding: 5px;
+    color: green;
+}
+
+button{
+    background-color: black;
+    color: white;
+    height: 30px;
+    border-radius: 5px;
+    border: 1px solid green;
+}
+h3{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    background-color: green;
+    border: 2px;
+    padding: 10px;
+    color: white;
+    border-radius: 10px;
+}
+.ht{
+    display: none;
+}
+button #pay_now{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}

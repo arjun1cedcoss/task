@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <script src="index.js" defer></script>
+    <title>JS-Task-7</title>
+</head>
+<body>
+    <h1>Fill the form </h1>
+   <div class="form">
+       <form  onsubmit="return getData()">
+           <label for="" class="txt">Name</label>
+           <input type="text" name="name" class="input1" oninput="hide()" id="name" placeholder="Enter Your Name" >
+           <label for=""  class="txt error" id="error_name"></label>
+
+            <label for="" class="txt">Age</label>
+            <input type="text" name="age" class="input1" oninput="hide()" id="age" placeholder="Enter Your age">
+            <label for="" class="txt error" id="error_age"></label>
+
+            <label for="" class="txt">Email</label>
+            <input type="text" name="email" class="input1" oninput="hide()" id="email" placeholder="Enter your email">
+            <label for=""  class="txt error" id="error_email"></label>
+
+            <label for="" class="txt">Contact</label>
+            <input type="tel" name="contact" class="input1" oninput="hide()" id="contact" placeholder="Enter your contact number">
+            <label for=""  class="txt error" id="error_contact"></label>
+
+            <label for="" class="txt">Select City</label>
+            <select name="select" id="select" oninput="hide()">
+                <option value="select"> select</option>
+                <option value="Gorakhpur">Gorakhpur</option>
+                <option value="Lucknow">Lucknow</option>
+                <option value="Noida">Noida</option>
+                <option value="Vanarashi">Vanarashi</option>
+            </select>
+            <label for=""  class="txt error" id="error_select"></label>
+            <br>
+            <br>
+            <input type="checkbox" oninput="hide()" name="hobbies1" class="checkbox" value="Cricket"> <label>Cricket</label> 
+            <input type="checkbox" oninput="hide()" name="hobbies2"  class="checkbox" value="Footabll"><label>Football</label>
+            <input type="checkbox" oninput="hide()" name="hobbies3" class="checkbox" value="Badmintal"><label>Badmintal</label>
+           
+            <label for=""  class="txt error" id="error_hobbies"></label>
+            <button id="sub" onclick="getData()">submit</button>
+         
+        </form>
+   </div> 
+  
+</body>
+</html>
